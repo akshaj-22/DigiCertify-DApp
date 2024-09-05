@@ -1,4 +1,4 @@
-# ![DApp](https://github.com/user-attachments/assets/d881e50c-3704-4cf6-8946-d114ffa66f9a)
+## ![DApp](https://github.com/user-attachments/assets/d881e50c-3704-4cf6-8946-d114ffa66f9a)
  DigiCertify DApp: Your Digital Credential Hub
 
 Welcome to the *DigiCertify DApp*! 🌟 This decentralized application (DApp) provides a seamless, secure, and fun way to issue and verify certificates on the blockchain. Say goodbye to fake certificates and hello to trust and transparency! 🚀
