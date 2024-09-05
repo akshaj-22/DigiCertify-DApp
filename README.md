@@ -115,7 +115,7 @@ We welcome contributions! 🙌 Feel free to fork this project, open issues, or s
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/akshaj-22/certiapp/blob/main/License.txt) file for more details.
 
-![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
+![MIT License](https://github.com/akshaj-22/certiapp/blob/main/License.txt)
 
 ---
 
