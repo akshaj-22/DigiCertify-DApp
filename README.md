@@ -4,7 +4,7 @@
 
 Welcome to the *DigiCertify DApp*! 🌟 This decentralized application (DApp) provides a seamless, secure, and fun way to issue and verify certificates on the blockchain. Say goodbye to fake certificates and hello to trust and transparency! 🚀
 
-![CertiLink DApp](https://github.com/your-username/certificate-dapp/blob/main/assets/Dapp.png)
+## ![DApp](https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif)
 
 ---
 
