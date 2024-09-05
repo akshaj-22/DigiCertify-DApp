@@ -86,6 +86,7 @@ The DApp is designed to be user-friendly and interactive. Here’s what it offer
 Make sure to connect your Metamask wallet before interacting with the DApp:
 
 javascript
+``
 const provider = new BrowserProvider(window.ethereum);
 const signer = await provider.getSigner();
 
