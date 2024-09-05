@@ -4,7 +4,6 @@
 
 Welcome to the *DigiCertify DApp*! 🌟 This decentralized application (DApp) provides a seamless, secure, and fun way to issue and verify certificates on the blockchain. Say goodbye to fake certificates and hello to trust and transparency! 🚀
 
-## ![DApp](https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif)
 
 ---
 
@@ -47,6 +46,8 @@ Before you get started, make sure you have the following:
 <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Kerala-Blockchain-Academy/MediaVault/f822abfb1ca9f89c703822049ea417256798e1d5/assets/react-colored.svg" width="36" height="36" alt="ReactJs" /></a>
 <a href="https://ethereum.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Kerala-Blockchain-Academy/MediaVault/f822abfb1ca9f89c703822049ea417256798e1d5/assets/ethereum-colored.svg" width="36" height="36" alt="Ethereum" /></a>
 </div>
+
+---
 
 ### Installation
 
@@ -128,5 +129,5 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ---
 
-## ![DApp](https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif)
+## ![DApp](https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif)
 
