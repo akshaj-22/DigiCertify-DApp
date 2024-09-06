@@ -1,125 +1,96 @@
-## ![DApp](https://private-user-images.githubusercontent.com/74038190/240304579-c288471c-be67-4fbb-af44-1c63ee9ed280.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjU1NTgxNjMsIm5iZiI6MTcyNTU1Nzg2MywicGF0aCI6Ii83NDAzODE5MC8yNDAzMDQ1NzktYzI4ODQ3MWMtYmU2Ny00ZmJiLWFmNDQtMWM2M2VlOWVkMjgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTA1VDE3Mzc0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUyZjEyODVhNzI3YTdjMjhhOTM2ZWZjMDY3Y2UxMDdjNzI4OWIwZGRjNzY2MDcyYjIwMWFmMjk0Y2Q1NjRiMjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ETlLs7GQSmJtW0RkHUWLHMQYVCtX7MvtGDlKSi0PbwY)
+# DigiCertify(DApp)
 
-## DigiCertify DApp: Your Digital Credential Hub
-
-Welcome to the *DigiCertify DApp*! 🌟 This decentralized application (DApp) provides a seamless, secure, and fun way to issue and verify certificates on the blockchain. Say goodbye to fake certificates and hello to trust and transparency! 🚀
-
-
----
-
-## 🎥 Demo Video
-
-Check out our live demo! 🎬👇
-
-[![Watch the video](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/Untitled%20design.png)](https://github.com/Neethu-Muthu/Certificate-DApp/blob/main/UI/src/assets/images/certiVid-7201959.webm)
-
----
+The **DigiCertify(DApp)** is a decentralized application that allows the issuance and verification of certificates securely on the blockchain. This DApp leverages **Ethereum** blockchain technology and **smart contracts** to ensure the integrity and authenticity of issued certificates. Built using **React** for the frontend and **Solidity** for the smart contract, this project ensures that certificate data remains tamper-proof and accessible to everyone.
 
 ## ✨ Features
 
-🛠 *Issue Certificates*: Administrators can create certificates for students with course details, grades, and dates.
+- **Issue Certificates:** One who deployed the smart contract can issue new certificates by connecting to MetaMask.
+- **View Certificates:** View issued certificates by connecting their MetaMask wallet.
+- **Blockchain Storage:** All certificate details are stored on the blockchain, ensuring they are secure, immutable, and verifiable.
+- **MetaMask Integration:** Connect your MetaMask wallet to interact with the DApp. Ensure you're on the correct network to interact with the deployed smart contract.
 
-🔍 *Verify Certificates*: Verify certificates by simply entering the certificate ID—anyone can do it!
+## 🚀 Getting Started
 
-🔐 *Blockchain Security*: Powered by Ethereum, all certificates are stored on the blockchain, ensuring they can't be altered or forged.
-
-🎨 *Beautiful UI*: A sleek, modern interface built with React and styled with Tailwind CSS.
-
----
-
-## 🚀 Quick Start
+To get the DigiCertify(DApp) up and running on your local machine, follow these steps:
 
 ### Prerequisites
 
-Before you get started, make sure you have the following:
+Ensure you have **Node.js**, **MetaMask**, and a preferred smart contract deployment tool installed.
 
-- 🖥 [Node.js](https://nodejs.org/)
-- 📦 [npm](https://www.npmjs.com/) (usually installed with Node.js)
-- 🔐 [Metamask](https://metamask.io/)
-- 💰 Ethereum wallet with testnet ETH
+### Smart Contract Deployment
 
-## 🛠 Built With
+1. **Deploy the Smart Contract:**
 
-<div align="left">
-<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Kerala-Blockchain-Academy/MediaVault/f822abfb1ca9f89c703822049ea417256798e1d5/assets/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Kerala-Blockchain-Academy/MediaVault/f822abfb1ca9f89c703822049ea417256798e1d5/assets/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://react.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Kerala-Blockchain-Academy/MediaVault/f822abfb1ca9f89c703822049ea417256798e1d5/assets/react-colored.svg" width="36" height="36" alt="ReactJs" /></a>
-<a href="https://ethereum.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/Kerala-Blockchain-Academy/MediaVault/f822abfb1ca9f89c703822049ea417256798e1d5/assets/ethereum-colored.svg" width="36" height="36" alt="Ethereum" /></a>
-</div>
+   - Deploy the `Cert.sol` smart contract located in the `contracts` folder using your preferred deployment application (e.g., **Hardhat**, **Truffle**, **Remix**, etc.).
 
----
+   - After deploying, copy the contract ABI from the generated `Cert.json` file. Depending on your deployment tool, this file will be generated in the corresponding `artifacts` or `build` folder.
+
+   - Paste the ABI into the `Cert.json` file located in the `src/scdata` folder of your project.
+
+   - Copy the deployed contract address and paste it into the `deployed_addresses.json` file in the `src/scdata` folder.
 
 ### Installation
 
-1. *Clone the repository*:
+2. **Clone the repository:**
 
-   bash
-   git clone https://github.com/your-username/certificate-dapp.git
+   ```bash
+   git clone https://github.com/akhilkailas017/Certificate-dApp.git
    cd certificate-dapp
+   ```
 
-2. **Install dependencies**:
+3. **Install the dependencies:**
 
-   bash
+   ```bash
    npm install
-   
+   ```
 
-3. **Start the development server**:
+4. **Start the development server:**
 
-   bash
+   ```bash
    npm run dev
-   
+   ```
 
-4. **Deploy the smart contract**:
+5. **Connect MetaMask:**
+   - Open MetaMask in your browser.
+   - Connect to the correct network where the smart contract is deployed.
 
-   bash
-   npx hardhat ignition deploy ignition/modules/Cert.js --network <network-name>
-   
+6. **Done!** Now you can start issuing and viewing certificates on the blockchain.
 
----
+## 🔗 Connecting to MetaMask
 
-## 💻 Frontend Overview
+- Before issuing or viewing certificates, make sure to connect your MetaMask wallet.
+- The account that deployed the smart contract can issue certificates.
+- Any connected user can view the issued certificates.
 
-The DApp is designed to be user-friendly and interactive. Here’s what it offers:
+## 📜 Smart Contract Details
 
-- **🏠 Home Page**: Connect your Metamask wallet and easily search for certificates by ID.
-  
-- **📝 Issue Page**: Admins can issue new certificates by filling out a simple form with course details, candidate name, grade, and issue date.
-  
-- **📜 Certificate Page**: Displays detailed certificate information fetched directly from the blockchain.
+- **Technology Used:** React, Solidity
+- **Smart Contract Deployment:** Can be deployed using **Hardhat**, **Truffle**, **Remix**, or any preferred application.
+- **Smart Contract ABI and Address:** 
+  - ABI: Stored in `src/scdata/Cert.json`.
+  - Address: Stored in `src/scdata/deployed_addresses.json`.
 
----
+## 🛠️ Tech Stack
 
-## 🎯 Usage Guide
+- **Frontend:** React.js
+- **Blockchain:** Ethereum
+- **Smart Contract Language:** Solidity
+- **Wallet Integration:** MetaMask
 
-### Connect to Metamask
+## 📝 Usage
 
-Make sure to connect your Metamask wallet before interacting with the DApp:
+1. **Issue Certificate:**
+   - Navigate to the "Issue Certificate" page.
+   - Fill in the certificate details and click "Issue".
 
-javascript
-``
-const provider = new BrowserProvider(window.ethereum);
-const signer = await provider.getSigner();
+2. **View Certificate:**
+   - Navigate to the "View Certificate" page.
+   - Connect to MetaMask with any account.
+   - Enter the certificate ID to view its details on the blockchain.
 
+## 📧 Contact
 
-### Issue a Certificate
-
-Admins can issue new certificates through the **Issue Certificate** page:
-
-javascript
-const txl = await instance.issue(id, name, coursename, grade, date);
-
-
-### Verify a Certificate
-
-Users can verify certificates by entering the ID on the *Home* page. The data is securely fetched from the blockchain!
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! 🙌 Feel free to fork this project, open issues, or submit pull requests. Let’s build something amazing together! 🚀
-
----
+For any questions or issues, please contact [akshajbabu21@gmail.com](mailto:akshajbabu21@gmail.com).
 
 ## 📝 License
 
