@@ -88,6 +88,10 @@ Ensure you have **Node.js**, **MetaMask**, and a preferred smart contract deploy
    - Connect to MetaMask with any account.
    - Enter the certificate ID to view its details on the blockchain.
 
+## 🎥 Demo Video
+
+[![DigiCertify](https://img.youtube.com/vi/jkg8eO6DJy4/0.jpg)](https://www.youtube.com/watch?v=jkg8eO6DJy4)
+
 ## 📧 Contact
 
 For any questions or issues, please contact [akshajbabu21@gmail.com](mailto:akshajbabu21@gmail.com).
